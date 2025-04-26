@@ -19,14 +19,14 @@ if result == 1:
 elif result == 0:
     std::trace "You have a sad number..."
 
-fn happy(n) => (n_happy):
+fn is_happy(n) => (n_happy):
 
 	n_arr = Arr.from(n)
 
 	fn sqr(Arr array) => (Arr array^2):
 
-	    for <- with (i = 1, array, array^2, dig^2)
-	           while i <= size(array) do i++:
+	    for i = 1, array, array^2, dig^2;
+	            while i <= size(array) step i++:
 
 	        dig^2 = (array[i])^^2;
 	        
@@ -40,8 +40,8 @@ fn happy(n) => (n_happy):
 
 	fn sum(Arr array) => (Arr S_array):
 
-	    for <- with (i; array; S_array)
-	    	     while S_array != 1 do i++:
+	    for with i; array; S_array
+	    	  while S_array != 1 do i++:
 
 	        S_array = sum(array)
 
