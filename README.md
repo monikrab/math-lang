@@ -1,15 +1,20 @@
-# (experimental math language)
+# **λy** Loy
 
-A math-like pseudocode language designed for prototyping and embedding efficient algorithms.
+A language designed to express computations with incredibly easy prototyping, while keeping high performance and optional expressiveness.
 
 
-## Why?
+## What can it do?
 
-The language plans to offer:
+#### The language plans to offer:
 
-- Minimalist, math-like syntax (easy to write, easy to read), expressive where it matters, dynamic when not
+- De-bloated, math-like syntax which is fast to write and easy to read — expressive only when necessary.
 
-- Precise types (nat, real, vec, seq, etc.)
+- A flexible, precise type system for all mathematics:
+Numbers: real, rat, int, nat...
+Linear algebra: vec, mtx<real>, tens...
+...much more: functions, geometry, graphs
+
+
 
 ## Example
 
@@ -19,7 +24,7 @@ A simple Fibonacci sequence calculator
 nat n
 
 fib(n) => (fib_n):
-
+{
     if n == 1:
         fib_n = 1
         return
@@ -30,8 +35,7 @@ fib(n) => (fib_n):
         fib_n = a + b
         a = b
         b = fib_n
-
-return
+}
 ```
 
 ## Status
@@ -42,8 +46,8 @@ Extremely experimental — everything in the language is in very early prototypi
 
 - Fully specified and standardized syntax and types
 
-- Compilation to C: drop into projects, compile anywhere for any machine
+- Compiles to readable GPU code: for fast execution and maintainability
 
-- Playground to test code
+- Online playground to test code
 
-- Optional proving (prove algorithm properties formally)
+- Optional formal verification
