@@ -21,11 +21,10 @@ Linear algebra: vec, mtx<real>, tens...
 ```cs
 \\ A simple Fibonacci sequence calculator
 
-fib(n: ℕ) => (fib_n: ℕ):
+fib(n: ℕ) => fib_n: ℕ:
 {
     if n == 1:
         fib_n = 1
-        return
 
     for i = 2, a = 0, b = 1;
         while i ≤ n step i++:
