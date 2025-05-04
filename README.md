@@ -18,12 +18,10 @@ Linear algebra: vec, mtx<real>, tens...
 
 ## Example
 
-A simple Fibonacci sequence calculator
+```cs
+\\ A simple Fibonacci sequence calculator
 
-```
-nat n
-
-fib(n) => (fib_n):
+fib(n: ℕ) => (fib_n: ℕ):
 {
     if n == 1:
         fib_n = 1
