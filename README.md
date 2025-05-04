@@ -1,4 +1,4 @@
-# **λy** | Loy
+²# **λy** | Loy
 
 A language designed to express computations with incredibly easy prototyping, while keeping high performance and optional expressiveness.
 
@@ -10,10 +10,10 @@ A language designed to express computations with incredibly easy prototyping, wh
 - De-bloated, math-like syntax which is fast to write and easy to read — expressive only when necessary.
 
 - A flexible, precise type system for all mathematics:
-<p></p>
-Numbers: real, rat, int, nat...
-Linear algebra: vec, mtx<real>, tens...
-...much more: functions, geometry, graphs
+
+-Numbers: real, rat, int, nat...
+-Linear algebra: vec, mtx<real>, tens...
+-...much more: functions, geometry, graphs
 
 
 
