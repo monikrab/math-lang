@@ -1,4 +1,4 @@
-²# **λy** | Loy
+# **λy** | Loy
 
 A language designed to express computations with incredibly easy prototyping, while keeping high performance and optional expressiveness.
 
