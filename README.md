@@ -1,4 +1,4 @@
-# **λy** | Loy
+# Loy
 
 A language designed to express computations with incredibly easy prototyping, while keeping high performance and optional expressiveness.
 
@@ -25,14 +25,14 @@ A language designed to express computations with incredibly easy prototyping, wh
 fib(n: ℕ) => fib_n: ℕ:
 {
     if n == 1:
-        fib_n = 1
+        fib_n = 1 ;;
 
     for i = 2, a = 0, b = 1;
         while i ≤ n step i++:
 
         fib_n = a + b
         a = b
-        b = fib_n
+        b = fib_n ;;
 }
 ```
 
